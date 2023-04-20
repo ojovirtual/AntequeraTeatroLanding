@@ -5,7 +5,7 @@ const OBRAS = [
 		cuerpo: `Uno de los cuentos cl&aacute;sicos m&aacute;s famosos, interpretado por los m&aacute;s peque&ntilde;os de la escuela. Ven a conocer al Marqu&eacute;s de Carab&aacute;s. Juguemos al teatro.`,
 		url: 'el-gato-con-botas-emute',
 		fechas: ['29/04/2023 20h'],
-		tags: ['Teatro infantil'],
+		tags: ['👦🏼👧🏼 Teatro infantil'],
 	},
 	{
 		titulo: 'Corviniano I, pr&iacute;ncipe azul en busca de cuento',
@@ -13,16 +13,18 @@ const OBRAS = [
 		cuerpo: `Corvi va en busca de un cuento para &eacute;l y otro para su amigo Segismundo II. Conocer&aacute;n divertidos personajes en el pa&iacute;s de los cuentos cl&aacute;sicos, fabulas, comics y libros de aventuras. &iquest;Conseguir&aacute;n su historia? Ay&uacute;dales a encontrarla y a escribir un &quot;fueron felices y comieron perdices&quot;`,
 		url: 'corviniano-emute',
 		fechas: ['06/05/2023 20h'],
-		tags: ['Teatro infantil'],
+		tags: ['👦🏼👧🏼 Teatro infantil'],
 	},
-	/*	{
+	{
 		titulo: 'Foto familiar',
-		img: 'img/foto_familiar.png',
-		cuerpo: `Obra representada por la Escuela de Teatro Duque de Rivas de Lucena (C&oacute;rdoba).`,
+		img: 'img/foto_familiar.jpeg',
+		cuerpo: `Hoy es un d&iacute;a grande en Cherrotinto, un peque&ntilde;o reino europeo. Es el cumplea&ntilde;os de su rey Ludorico IV y los actos para conmemorar el aniversario est&aacute;n a punto de comenzar: almuerzo, recepci&oacute;n y la tradicional foto de la familia real. Sin embargo una antigua amante del monarca vendr&aacute; a romper la tranquilidad de este d&iacute;a tan especial.<br>
+		&ldquo;Foto familiar&rdquo; es una divertida comedia donde descubriremos mucha similitudes con la realidad que hoy en d&iacute;a envuelve a las casas reales.<br>
+<br><b>Obra a cargo de la <a href='https://escueladeteatroduquederivas.es/' target='_blank'>Escuela de Teatro Duque de Rivas</a> de Lucena (C&oacute;rdoba).</b></p>`,
 		url: 'foto-familiar',
 		fechas: ['12/05/2023 19h'],
-		tags: ['Adultos'],
-	},*/
+		tags: ['😆 Comedia'],
+	},
 	{
 		titulo: 'Haciendo diabluras',
 		img: 'img/diabluras2.png',
@@ -31,7 +33,7 @@ const OBRAS = [
 		risas y diversi&oacute;n. Te esperamos para jugar juntos.`,
 		url: 'haciendo-diabluras',
 		fechas: ['14/05/2023 12h'],
-		tags: ['Teatro infantil'],
+		tags: ['👦🏼👧🏼 Teatro infantil'],
 	},
 
 	{
@@ -64,7 +66,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 <h4>Cuesti&oacute;n de fe 🙏🏼</h4>`,
 		url: 'cuestion-de-fe-emute',
 		fechas: ['26/05/2023 20:00h', '27/05/2023 20:00h'],
-		tags: ['Teatro musical'],
+		tags: ['🎶 Teatro musical'],
 	},
 	{
 		titulo: 'Himmelweg',
@@ -75,7 +77,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		En plena naturaleza, en el coraz&oacute;n de Europa. Y si les gusta, vuelvan cuando quieran.`,
 		url: 'himmelweg',
 		fechas: ['02/06/2023 20:00h', '04/06/2022 20:00h'],
-		tags: ['Metateatro'],
+		tags: [' Metateatro'],
 	},
 	{
 		titulo: 'La venganza de Don Mendo',
@@ -85,7 +87,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		arte de hacer re&iacute;r. Gracias a ellos por su generosidad y a ustedes por venir a verlo.`,
 		url: 'la-venganza-de-don-mendo-emute',
 		fechas: ['17/06/2023 20:00', '18/06/2023 12:00'],
-		tags: ['Comedia'],
+		tags: ['😆 Comedia'],
 	},
 	{
 		titulo: 'Farsas contemporaneas',
@@ -105,7 +107,7 @@ desarrolla la historia de dos bandos: Los cursis y los anti-cursis. Y en el cent
 matrimonio, Rosario y Agust&iacute;n. &iquest;Qui&eacute;n ganar&aacute;?`,
 		url: 'lo-cursi-emute',
 		fechas: ['23/06/2023 20:00', '24/06/2023 20:00'],
-		tags: ['Comedia'],
+		tags: ['😆 Comedia'],
 	},
 	{
 		titulo: 'Usted tiene ojos de mujer fatal',
@@ -113,6 +115,6 @@ matrimonio, Rosario y Agust&iacute;n. &iquest;Qui&eacute;n ganar&aacute;?`,
 		cuerpo: `Esta obra, escrita por Enrique Jardiel Poncela, es una comedia que cuenta la historia de un hombre llamado Sergio que tiene la habilidad de seducir a cualquier mujer.`,
 		url: 'usted-tiene-ojos-de-emute',
 		fechas: ['30/06/2023 20:00', '01/07/2023 20:00'],
-		tags: ['Comedia'],
+		tags: ['😆 Comedia'],
 	},*/
 ];
