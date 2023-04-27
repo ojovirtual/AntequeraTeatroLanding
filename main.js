@@ -26,9 +26,9 @@ function rellenaContenido() {
 																	return '<span class="tag is-danger">' + elemento + '</span> ';
 																})}								
                                 </p>
-								<a class="button is-success" href="https://www.giglon.com/evento/${obra.url}" target="_blank"
-									>Comprar en Giglon.com</a
-								>
+								<a class="button is-success ${obra.url === undefined ? 'is-static' : ''}" ${
+			obra.url ? 'href="https://www.giglon.com/evento/' + obra.url + '"' : ''
+		} target="_blank">${obra.url ? 'Comprar en Giglon.com' : 'Entradas disponibles en breve'}</a>
                                 
 							</div>                            
 						</div>
