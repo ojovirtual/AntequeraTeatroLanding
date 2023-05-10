@@ -1,12 +1,12 @@
 const OBRAS = [
-/*	{
+	/*	{
 		titulo: 'El gato con botas',
 		img: 'img/gato_botas.png',
 		cuerpo: `Uno de los cuentos cl&aacute;sicos m&aacute;s famosos, interpretado por los m&aacute;s peque&ntilde;os de la escuela. Ven a conocer al Marqu&eacute;s de Carab&aacute;s. Juguemos al teatro.`,
 		url: 'el-gato-con-botas-emute',
 		fechas: ['29/04/2023 20h'],
 		tags: ['👦🏼👧🏼 Teatro infantil'],
-	},*/
+	},
 	{
 		titulo: 'Corviniano I, pr&iacute;ncipe azul en busca de cuento',
 		img: 'img/corviniano.png',
@@ -14,7 +14,7 @@ const OBRAS = [
 		url: 'corviniano-emute',
 		fechas: ['06/05/2023 20h'],
 		tags: ['👦🏼👧🏼 Teatro infantil'],
-	},
+	},*/
 	{
 		titulo: 'Foto familiar',
 		img: 'img/foto_familiar.jpeg',
