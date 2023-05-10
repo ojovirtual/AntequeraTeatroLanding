@@ -52,7 +52,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 	{
 		titulo: 'Cuesti&oacute;n de fe',
 		img: 'img/cuestion_final.png',
-		cuerpo: `<ol><li>Amar&aacute;s el TEATRO por encima de &ldquo;todas&rdquo; las cosas.🎭</li>
+		cuerpo: `<small><ol><li>Amar&aacute;s el TEATRO por encima de &ldquo;todas&rdquo; las cosas.🎭</li>
 <li>No tomar&aacute;s la opini&oacute;n del p&uacute;blico en vano. 👨‍👩‍👧‍👦</li>
 <li>Santificar&aacute;s las fiestas. Nosotras cantando y bailando. 🕺🏼💃🏼</li>
 <li>Honrar&aacute;s a tu padre y a tu madre. Siempre. 🧑‍👩‍👧</li>
@@ -62,7 +62,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 <li>No dar&aacute;s falso testimonio, ni mentir&aacute;s. Puede que alguna piadosa se nos escape. 😅</li>
 <li>No tendr&aacute;s pensamientos impuros. Estos s&iacute; pueden durante la representaci&oacute;n. 😋</li>
 <li>No codiciar&aacute;s los bienes ajenos. Pero s&iacute; un ratito de su tiempo para disfrutar juntos de:</li>
-</ol>
+</ol></small>
 <h4>Cuesti&oacute;n de fe 🙏🏼</h4>`,
 		fechas: ['26/05/2023 20:00h', '27/05/2023 20:00h'],
 		tags: ['🎶 Teatro musical'],

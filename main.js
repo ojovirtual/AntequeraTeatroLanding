@@ -2,7 +2,7 @@ function rellenaContenido() {
 	OBRAS.map((obra) => {
 		const URL = obra.url ? `https://www.giglon.com/evento/${obra.url}` : 'https://www.giglon.com/todos?city=Antequera';
 		PLANTILLA = `
-                <div class='column is-one-third'>
+                <div class='column is-one-quarter'>
                     <div class="card mb-2">
 						<div class="card-image">
 							<figure class="image is-1by1">
@@ -26,12 +26,18 @@ function rellenaContenido() {
                                 ${obra.tags.map((elemento) => {
 																	return '<span class="tag is-danger">' + elemento + '</span> ';
 																})}								
-                                </p>
-								<a class="button is-success ${obra.url === undefined ? 'is-static' : ''}" href="${URL}" target="_blank">${
-			obra.url ? 'Comprar en Giglon.com' : 'Entradas disponibles en breve'
-		}</a>
+                                </p>								
                                 
 							</div>                            
+						</div>
+						<div class="card-footer">
+						<a class="card-footer-item button is-success ${
+							obra.url === undefined ? 'is-static' : ''
+						}" href="${URL}" target="_blank">${
+			obra.url
+				? '<span class="mdi mdi-ticket-confirmation mdi-rotate-45"></span> &nbsp; Comprar en Giglon.com'
+				: 'Entradas disponibles en breve'
+		}</a>
 						</div>
 					</div>
                 </div>`;
