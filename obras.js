@@ -14,7 +14,7 @@ const OBRAS = [
 		url: 'corviniano-emute',
 		fechas: ['06/05/2023 20h'],
 		tags: ['👦🏼👧🏼 Teatro infantil'],
-	},*/
+	},
 	{
 		titulo: 'Foto familiar',
 		img: 'img/foto_familiar.jpeg',
@@ -35,7 +35,7 @@ const OBRAS = [
 		fechas: ['14/05/2023 12h'],
 		tags: ['👦🏼👧🏼 Teatro infantil'],
 	},
-
+*/
 	{
 		titulo: 'Litrona',
 		img: 'img/litrona_final.png',
@@ -64,6 +64,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 <li>No codiciar&aacute;s los bienes ajenos. Pero s&iacute; un ratito de su tiempo para disfrutar juntos de:</li>
 </ol></small>
 <h4>Cuesti&oacute;n de fe 🙏🏼</h4>`,
+		url: 'cuestion-de-fe-emute',
 		fechas: ['26/05/2023 20:00h', '27/05/2023 20:00h'],
 		tags: ['🎶 Teatro musical'],
 	},
@@ -76,6 +77,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		En plena naturaleza, en el coraz&oacute;n de Europa. Y si les gusta, vuelvan cuando quieran.`,
 		fechas: ['02/06/2023 20:00h', '04/06/2022 20:00h'],
 		tags: [' Metateatro'],
+		url: 'himmelweg-emute',
 	},
 	{
 		titulo: 'La venganza de Don Mendo',
