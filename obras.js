@@ -35,7 +35,6 @@ const OBRAS = [
 		fechas: ['14/05/2023 12h'],
 		tags: ['👦🏼👧🏼 Teatro infantil'],
 	},
-*/
 	{
 		titulo: 'Litrona',
 		img: 'img/litrona_final.png',
@@ -48,7 +47,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		url: 'litrona-emute',
 		fechas: ['19/05/2023 20h'],
 		tags: ['Teatro juvenil'],
-	},
+	},*/
 	{
 		titulo: 'Cuesti&oacute;n de fe',
 		img: 'img/cuestion_final.png',
@@ -87,6 +86,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		arte de hacer re&iacute;r. Gracias a ellos por su generosidad y a ustedes por venir a verlo.`,
 		fechas: ['17/06/2023 20:00', '18/06/2023 20:00'],
 		tags: ['😆 Comedia'],
+		url: 'la-venganza-de-don-mendo-emute',
 	},
 	{
 		titulo: 'Farsas contempor&aacute;neas',
@@ -94,6 +94,7 @@ sociedad m&aacute;s amarga de Espa&ntilde;a.`,
 		cuerpo: `Nos encontramos ante un espect&aacute;culo de teatro que recrea una sociedad humana del pasado, presente y futuro. Una forma de contar historias sencilla y directa, capaz de sorprender al p&uacute;blico y no dejar a nadie indiferente. El origen del hombre y el consumo, la sociedad que se divide en clases sociales y el respeto por la opini&oacute;n, son los temas que reflejan en clave de humor el mundo en el que vivimos, y en lo que se puede convertir si no somos capaces de reaccionar.`,
 		fechas: ['19/06/2023 20:00', '20/06/2023 20:00'],
 		tags: [],
+		url: 'farsas-contemporaneas-emute',
 	},
 	{
 		titulo: 'Lo cursi',
