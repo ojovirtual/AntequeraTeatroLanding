@@ -2,13 +2,13 @@ function rellenaContenido() {
 	OBRAS.map(function (obra) {
 		PLANTILLA = `
                 <div class='column is-one-third'>
-                    <div class="card mb-2" style="opacity: 0.9;">
+                    <div class="card mb-2 h-100" style="opacity: 0.9; height: 100%; display: flex; flex-direction: column;">
 						<!--<div class="card-image">
 							<figure class="image is-1by1">
 								${obra.url ? `<a href='https://www.giglon.com/evento/${obra.url}' target='_blank'><img src="${obra.img}" alt="${obra.titulo}" /></a>` : `<img src="${obra.img}" alt="${obra.titulo}" />`}
 							</figure>
 						</div>-->
-						<div class="card-content">
+						<div class="card-content" style="flex-grow: 1;">
 							<div class="media">
 								<div class="media-content">
 									<p class="title is-4">${obra.titulo}</p>
