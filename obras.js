@@ -13,7 +13,7 @@ var OBRAS = [
 	{
 		titulo: 'La herencia',
 		autor: 'Jean-Pierre Martínez',
-		img: 'img/herencia.png',
+		img: 'img/herencia.jpeg',
 		cuerpo: `La t&iacute;a Adela acaba de fallecer, y el legado de su maravilloso piso en el centro de Madrid, se convertir&aacute; en un problema para los futuros herederos. La comunidad del edificio, un tanto peculiar, se empe&ntilde;ar&aacute; en celebrar una fiesta de bienvenida, y es que estos vecinos, no aceptar&aacute;n un "no" por respuesta.`,
 
 		fechas: ['18/05/2024 21:00h'],
@@ -35,7 +35,7 @@ var OBRAS = [
 	{
 		titulo: 'La asamblea de las mujeres',
 		autor: 'Arist&oacute;fanes',
-		img: 'img/asamblea.png',
+		img: 'img/asamblea.jpeg',
 		cuerpo: `En esta comedia de Arist&oacute;fanes, las mujeres de Atenas se hacen con el poder de la ciudad, para demostrar a los hombres que son mejores gobernantes que ellos. Mujeres que se revelan contra ese servicial segundo plano al que estaban destinadas. 25 siglos nos separan a nosotras de ellas, sin embargo, &iquest;somos una sociedad diferente?`,
 
 		fechas: ['07/06/2024 21:00h'],
