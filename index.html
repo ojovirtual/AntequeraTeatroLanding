@@ -18,6 +18,7 @@
 		<link rel="icon" href="favicon.ico" sizes="any" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
@@ -29,13 +30,52 @@
 				font-family: 'Montserrat', sans-serif;
 			}
 			.seccion2 {
-				
 				background-color: #1f1f1f;
 			}
 			time {
 				font-family: 'Montserrat', sans-serif;
 				font-weight: bold;
 				color: #961112;
+			}
+			.modal-image {
+				max-height: 90vh;
+				width: auto;
+				margin: 0 auto;
+			}
+			/* Estilos para tarjetas de igual altura */
+			.columns.is-multiline {
+				display: flex;
+				flex-wrap: wrap;
+				margin: -0.75rem;
+			}
+			.columns.is-multiline > .column {
+				display: flex;
+				padding: 0.75rem;
+			}
+			.columns.is-multiline > .column > .card {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+			}
+			.columns.is-multiline > .column > .card > .card-content {
+				display: flex;
+				flex-direction: column;
+				flex: 1;
+			}
+			.columns.is-multiline > .column > .card > .card-content > .columns {
+				flex: 1;
+			}
+			.columns.is-multiline > .column > .card > .card-content > .columns > .column {
+				display: flex;
+				flex-direction: column;
+			}
+			.columns.is-multiline > .column > .card > .card-content > .content {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+			}
+			.columns.is-multiline > .column > .card > .card-content > .content > .mt-4 {
+				margin-top: auto !important;
 			}
 		</style>
 	</head>
@@ -78,9 +118,19 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Modal para mostrar la imagen -->
+		<div class="modal" id="imageModal">
+			<div class="modal-background"></div>
+			<div class="modal-content">
+				<img id="modalImage" class="modal-image" src="" alt="Imagen de la obra">
+			</div>
+			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+
 		<!-- 100% privacy-first analytics -->
-	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+		<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+		<script type="text/javascript" src="obras.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
-	<script type="text/javascript" src="obras.js"></script>
-	<script type="text/javascript" src="main.js"></script>
 </html>
