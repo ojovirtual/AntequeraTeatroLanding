@@ -57,7 +57,7 @@ var OBRAS = [
 	{
 		titulo: 'Angelina o el honor de un brigadier',
 		autor: 'Jardiel Poncela',
-		img: 'img/brigadier_web.jpg',
+		img: 'img/angelina_web.jpg',
 		cuerpo: `La j&oacute;ven e inocente Angelina se ha prometido con Rodolfito, todo parece ir como la seda en esta familia de la alta sociedad de 1880, sin embargo, la paz, el sosiego y el amor, dar&aacute;n paso al caos y la deshonra del Brigadier, padre de Angelina. Jardiel Poncela nos presenta esta divertida comedia en verso que representa a modo de caricatura, la Espa&ntilde;a de 1880.`,
 		
 		fechas: ['15/06/2024 21:00h'],
