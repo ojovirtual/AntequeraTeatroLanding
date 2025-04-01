@@ -77,6 +77,32 @@
 			.columns.is-multiline > .column > .card > .card-content > .content > .mt-4 {
 				margin-top: auto !important;
 			}
+			/* Estilos para el botón de scroll to top */
+			.scroll-to-top {
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				background-color: #961112;
+				color: white;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+				opacity: 0;
+				transition: opacity 0.3s;
+				z-index: 1000;
+			}
+			
+			.scroll-to-top.visible {
+				opacity: 1;
+			}
+			
+			.scroll-to-top:hover {
+				background-color: #7a0d0e;
+			}
 		</style>
 	</head>
 	<body>
@@ -102,6 +128,7 @@
 			<div class="columns is-centered is-multiline my-2 mx-2" name="contenedor"></div>
 		</section>
 		<section class="seccion2 is-centered py-4">
+			<h5 class="is-size-5 is-size-6-mobile has-text-centered has-text-white">Todas las representaciones tendrán lugar en</h5>
 			<h3 class="is-size-3 is-size-5-mobile has-text-centered has-text-white">REAL ACADEMIA DE NOBLES ARTES DE ANTEQUERA, C/Encarnaci&oacute;n 16 - Antequera</h3>
 			<div class="columns is-mobile is-centered">
 				<div class="column is-half" style="text-align: center">
@@ -126,6 +153,13 @@
 				<img id="modalImage" class="modal-image" src="" alt="Imagen de la obra">
 			</div>
 			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+
+		<!-- Botón de scroll to top -->
+		<div class="scroll-to-top" id="scrollToTop">
+			<span class="icon">
+				<i class="fas fa-arrow-up"></i>
+			</span>
 		</div>
 
 		<!-- 100% privacy-first analytics -->

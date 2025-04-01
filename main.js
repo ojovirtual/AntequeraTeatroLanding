@@ -132,4 +132,24 @@ window.addEventListener('DOMContentLoaded', (event) => {
             openModal(img.src);
         });
     });
+
+    // Funcionalidad del botón de scroll to top
+    const scrollToTopButton = document.getElementById('scrollToTop');
+
+    // Mostrar/ocultar el botón según el scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollToTopButton.classList.add('visible');
+        } else {
+            scrollToTopButton.classList.remove('visible');
+        }
+    });
+
+    // Función para subir al inicio
+    scrollToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 });
