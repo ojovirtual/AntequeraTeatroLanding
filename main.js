@@ -61,7 +61,7 @@ function rellenaContenido() {
                                         <div class="mt-4">
                                             ${
                                                 obra.url
-                                                    ? `<a class="button is-success" href="https://www.giglon.com/evento/${obra.url}" target="_blank">Comprar en Giglon.com</a>`
+                                                    ? `<a class="button is-success" href="https://www.giglon.com/evento/${obra.url}" target="_blank"> <i class="fas fa-ticket-alt"></i> &nbsp; Comprar en Giglon.com</a>`
                                                     : `<button class="button is-success" disabled>Entradas a la venta en breve</button>`
                                             }
                                         </div>
