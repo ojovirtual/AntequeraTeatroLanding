@@ -3,9 +3,9 @@ var OBRAS = [
 		titulo: 'Cuatro corazones con freno y marcha atr&aacute;s',
 		autor: 'Jardiel Poncela',
 		img: 'img/corazones_web.jpg',
-		cuerpo: `Una historia de eterna juventud, llena de personajes disparatados y momentos hilarantes. Nuestros protagonistas descubrir&aacute;n que vivir para siempre, no es sin&oacute;nimo de felicidad y tranquilidad. Las sorpresas se van sucediendo durante tres actos en los que los a&ntilde;os pasan con velocidad y la trama se complica cada vez m&aacute;s. Esperamos provocarles unas risas que les hagan rejuvenecer.`,
-		
+		cuerpo: `Una historia de eterna juventud, llena de personajes disparatados y momentos hilarantes. Nuestros protagonistas descubrir&aacute;n que vivir para siempre, no es sin&oacute;nimo de felicidad y tranquilidad. Las sorpresas se van sucediendo durante tres actos en los que los a&ntilde;os pasan con velocidad y la trama se complica cada vez m&aacute;s. Esperamos provocarles unas risas que les hagan rejuvenecer.`,		
 		fechas: ['17/05/2025 21:30h'],
+		url: 'cuatro-corazones-con-freno-y-marcha-atras-emute',		
 		tags: ['Comedia'],
 		reparto: ['Isabel Molina', 'Isabel Muñoz', 'Belén García', 'Diego Salvador', 'Sergey Gostyuzhev', 'María Luisa Romero', 'Margarita Martínez', 'José Antonio Luque', 'José Antonio Sánchez', 'Andrés Gómez-Carreño', 'Juan Antonio López', 'David Bautista', 'Remedios García', 'Ángel Bautista', 'Sara Benaisa', 'Sandra Morán', 'Leo Benaisa'],
 		director: 'Fco. de Paula Ramírez',
@@ -15,7 +15,7 @@ var OBRAS = [
 		autor: 'Jean-Pierre Martínez',
 		img: 'img/herencia_web.jpg',
 		cuerpo: `La t&iacute;a Adela acaba de fallecer, y el legado de su maravilloso piso en el centro de Madrid, se convertir&aacute; en un problema para los futuros herederos. La comunidad del edificio, un tanto peculiar, se empe&ntilde;ar&aacute; en celebrar una fiesta de bienvenida, y es que estos vecinos, no aceptar&aacute;n un "no" por respuesta.`,
-
+		url: 'la-herencia-emute',
 		fechas: ['18/05/2025 21:30h'],
 		tags: ['Comedia'],
 		reparto: ['Olatz Miguel Ayestaran', 'Cristian García', 'Manuela Aguilar', 'Natalia Estrada', 'Carmen Gloria Arenas', 'Marta García', 'Raquel Pérez', 'Paula Verónica', 'Lola García', 'Meli Paradas', 'Miguel de Luna', 'José Gallardo', 'Blanca Navallas'],
