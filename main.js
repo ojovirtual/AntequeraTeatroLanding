@@ -1,5 +1,51 @@
 function rellenaContenido() {
-	OBRAS.map(function (obra) {
+	// Limpiar el contenedor antes de rellenar
+	document.querySelector('div[name=contenedor]').innerHTML = '';
+
+	// Obtener la fecha actual (sin horas)
+	const hoy = new Date();
+	hoy.setHours(0,0,0,0);
+
+	// Separar obras futuras y pasadas
+	const obrasFuturas = [];
+	const obrasPasadas = [];
+
+	OBRAS.forEach(function (obra) {
+		// Tomar la primera fecha de la obra
+		let fechaObra = obra.fechas && obra.fechas.length > 0 ? obra.fechas[0] : null;
+		let esPasada = false;
+		if (fechaObra) {
+			// Formato esperado: 'dd/mm/yyyy hh:mmh'
+			// Extraer solo la fecha
+			let partes = fechaObra.split(' ')[0].split('/');
+			let fecha = new Date(parseInt(partes[2]), parseInt(partes[1]) - 1, parseInt(partes[0]));
+			fecha.setHours(0,0,0,0);
+			if (fecha < hoy) {
+				esPasada = true;
+			}
+		}
+		if (esPasada) {
+			obrasPasadas.push(obra);
+		} else {
+			obrasFuturas.push(obra);
+		}
+	});
+
+	// Concatenar: primero futuras, luego pasadas
+	const obrasOrdenadas = obrasFuturas.concat(obrasPasadas);
+
+	obrasOrdenadas.forEach(function (obra) {
+		// Comprobar si es pasada
+		let fechaObra = obra.fechas && obra.fechas.length > 0 ? obra.fechas[0] : null;
+		let esPasada = false;
+		if (fechaObra) {
+			let partes = fechaObra.split(' ')[0].split('/');
+			let fecha = new Date(parseInt(partes[2]), parseInt(partes[1]) - 1, parseInt(partes[0]));
+			fecha.setHours(0,0,0,0);
+			if (fecha < hoy) {
+				esPasada = true;
+			}
+		}
 		PLANTILLA = `
                 <div class='column is-4-desktop is-6-tablet is-12-mobile'>
                     <div class="card mb-2">
@@ -60,9 +106,11 @@ function rellenaContenido() {
                                         </div>
                                         <div class="mt-4">
                                             ${
-                                                obra.url
-                                                    ? `<a class="button is-success" href="https://www.giglon.com/evento/${obra.url}" target="_blank"> <i class="fas fa-ticket-alt"></i> &nbsp; Comprar en Giglon.com</a>`
-                                                    : `<button class="button is-success" disabled>Entradas a la venta en breve</button>`
+                                                esPasada
+                                                    ? `<button class="button is-danger" disabled>Obra finalizada</button>`
+                                                    : (obra.url
+                                                        ? `<a class="button is-success" href="https://www.giglon.com/evento/${obra.url}" target="_blank"> <i class="fas fa-ticket-alt"></i> &nbsp; Comprar en Giglon.com</a>`
+                                                        : `<button class="button is-success" disabled>Entradas a la venta en breve</button>`)
                                             }
                                         </div>
                                     </div>

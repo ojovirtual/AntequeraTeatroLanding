@@ -26,7 +26,7 @@ var OBRAS = [
 		autor: 'Leandro Marcos',
 		img: 'img/alma_web.jpg',
 		cuerpo: `En esta supina burocracia celestial nos encontramos en un cielo abarrotado. &iquest;Qu&eacute; pasar&iacute;a si no hubiera espacio para ning&uacute;n alma m&aacute;s? &iquest;C&oacute;mo reaccionar&iacute;an las almas reci&eacute;n llegadas al cielo al ver qu&eacute; no pueden pasar la puerta celestial? En esta divertida comedia viajaremos al cielo para vivir mil y un enredos celestiales...`,
-
+		url: 'no-cabe-un-alma-emute',
 		fechas: ['01/06/2025 21:30h'],
 		tags: ['Comedia'],
 		reparto: ['Intercambio Escuela Duque de Rivas de Lucena'],
