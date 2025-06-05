@@ -1,4 +1,4 @@
-var OBRAS = [
+const OBRAS = [
 	{
 		titulo: 'Cuatro corazones con freno y marcha atr&aacute;s',
 		autor: 'Jardiel Poncela',
@@ -143,7 +143,7 @@ var OBRAS = [
 		autor: 'Tom&aacute;s Af&aacute;n',
 		img: 'img/clown_web.jpg',
 		cuerpo: `&iquest;Qui&eacute;nes somos, de d&oacute;nde venimos, ad&oacute;nde vamos? &iquest;Estamos solos en la galaxia o acompa&ntilde;ados? Estos divertidos payasos, que s&oacute;lo quieren jugar, nos traen la respuesta a todas nuestras dudas existenciales, o no. Amor, poder, religi&oacute;n, amistad, la vida y la muerte, todo tratado con el humor blanco de estas criaturitas teatrales.`,
-
+		url: 'criaturitas-de-dios',
 		fechas: ['21/06/2025 21:30h'],
 		tags: ['Comedia'],
 		reparto: [
